@@ -66,8 +66,9 @@ endif
 filetype on
 
 " Filetype identation
-autocmd BufEnter *.js set softtabstop=4|set shiftwidth=4
-autocmd BufEnter *.c  set softtabstop=4|set shiftwidth=4
+autocmd BufEnter *.c   set softtabstop=4|set shiftwidth=4
+autocmd BufEnter *.erl set softtabstop=4|set shiftwidth=4
+autocmd BufEnter *.js  set softtabstop=4|set shiftwidth=4
 
 " Edit file using current path.
 map <leader>e :e <C-R>=expand("%:p:h") . "/" <CR>
